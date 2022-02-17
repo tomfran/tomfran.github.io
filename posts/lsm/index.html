@@ -5,14 +5,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title></title>
-<meta name="keywords" content="">
-<meta name="description" content="About me Hello, I am Francesco.
-I am an Italian Software Engineer with a strong foundation in computer science and a passion for solving complex problems.
-I am interested in a range of topics, including distributed systems, databases, compression techniques, distributed computing, and machine learning.
-Feel free to have a look at my Github, or get in touch on Linkedin.">
+<title>Log-Structured Merge Tree | </title>
+<meta name="keywords" content="database">
+<meta name="description" content="An LSM Tree overview and Java implementation">
 <meta name="author" content="">
-<link rel="canonical" href="https://tomfran.github.io/about/">
+<link rel="canonical" href="https://tomfran.github.io/posts/lsm/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.64aa1eb9c2f9a08577c059c32b8a8b783c5c018a3f3fe19b62276bce980cc71d.css" integrity="sha256-ZKoeucL5oIV3wFnDK4qLeDxcAYo/P&#43;GbYidrzpgMxx0=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://tomfran.github.io/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://tomfran.github.io/favicon.ico">
@@ -29,22 +26,16 @@ Feel free to have a look at my Github, or get in touch on Linkedin.">
         }
 
     </style>
-</noscript><meta property="og:title" content="" />
-<meta property="og:description" content="About me Hello, I am Francesco.
-I am an Italian Software Engineer with a strong foundation in computer science and a passion for solving complex problems.
-I am interested in a range of topics, including distributed systems, databases, compression techniques, distributed computing, and machine learning.
-Feel free to have a look at my Github, or get in touch on Linkedin." />
+</noscript><meta property="og:title" content="Log-Structured Merge Tree" />
+<meta property="og:description" content="An LSM Tree overview and Java implementation" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://tomfran.github.io/about/" /><meta property="article:section" content="" />
-
-
+<meta property="og:url" content="https://tomfran.github.io/posts/lsm/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-11-05T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-11-05T00:00:00+00:00" />
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content=""/>
-<meta name="twitter:description" content="About me Hello, I am Francesco.
-I am an Italian Software Engineer with a strong foundation in computer science and a passion for solving complex problems.
-I am interested in a range of topics, including distributed systems, databases, compression techniques, distributed computing, and machine learning.
-Feel free to have a look at my Github, or get in touch on Linkedin."/>
+<meta name="twitter:title" content="Log-Structured Merge Tree"/>
+<meta name="twitter:description" content="An LSM Tree overview and Java implementation"/>
 
 
 <script type="application/ld+json">
@@ -55,8 +46,14 @@ Feel free to have a look at my Github, or get in touch on Linkedin."/>
     {
       "@type": "ListItem",
       "position":  1 ,
-      "name": "",
-      "item": "https://tomfran.github.io/about/"
+      "name": "Posts",
+      "item": "https://tomfran.github.io/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Log-Structured Merge Tree",
+      "item": "https://tomfran.github.io/posts/lsm/"
     }
   ]
 }
@@ -65,20 +62,20 @@ Feel free to have a look at my Github, or get in touch on Linkedin."/>
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "",
-  "name": "",
-  "description": "About me Hello, I am Francesco.\nI am an Italian Software Engineer with a strong foundation in computer science and a passion for solving complex problems.\nI am interested in a range of topics, including distributed systems, databases, compression techniques, distributed computing, and machine learning.\nFeel free to have a look at my Github, or get in touch on Linkedin.",
+  "headline": "Log-Structured Merge Tree",
+  "name": "Log-Structured Merge Tree",
+  "description": "An LSM Tree overview and Java implementation",
   "keywords": [
-    
+    "database"
   ],
-  "articleBody": "About me Hello, I am Francesco.\nI am an Italian Software Engineer with a strong foundation in computer science and a passion for solving complex problems.\nI am interested in a range of topics, including distributed systems, databases, compression techniques, distributed computing, and machine learning.\nFeel free to have a look at my Github, or get in touch on Linkedin.\n",
-  "wordCount" : "60",
+  "articleBody": "Motivation Stuff I want to talk about\nArchitecture SSTables Skip-list Tree Benchmarks References and future works ",
+  "wordCount" : "16",
   "inLanguage": "en",
-  "datePublished": "0001-01-01T00:00:00Z",
-  "dateModified": "0001-01-01T00:00:00Z",
+  "datePublished": "2023-11-05T00:00:00Z",
+  "dateModified": "2023-11-05T00:00:00Z",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://tomfran.github.io/about/"
+    "@id": "https://tomfran.github.io/posts/lsm/"
   },
   "publisher": {
     "@type": "Organization",
@@ -108,25 +105,60 @@ Feel free to have a look at my Github, or get in touch on Linkedin."/>
 
 <article class="post-single">
   <header class="post-header">
-    <div class="breadcrumbs"><a href="https://tomfran.github.io/">Home</a></div>
+    <div class="breadcrumbs"><a href="https://tomfran.github.io/">Home</a>&nbsp;»&nbsp;<a href="https://tomfran.github.io/posts/">Posts</a></div>
     <h1 class="post-title">
-      
+      Log-Structured Merge Tree
     </h1>
-    <div class="post-meta">
+    <div class="post-description">
+      An LSM Tree overview and Java implementation
+    </div>
+    <div class="post-meta"><span title='2023-11-05 00:00:00 +0000 UTC'>November 5, 2023</span>&nbsp;·&nbsp;1 min
 
 </div>
-  </header> 
-  <div class="post-content"><h2 id="about-me">About me<a hidden class="anchor" aria-hidden="true" href="#about-me">#</a></h2>
-<p>Hello, I am Francesco.</p>
-<p>I am an Italian Software Engineer with a strong foundation in computer science and a passion for solving complex problems.</p>
-<p>I am interested in a range of topics, including distributed systems, databases, compression techniques, distributed computing, and machine learning.</p>
-<p>Feel free to have a look at my <a href="https://github.com/tomfran">Github</a>, or get in touch on <a href="https://www.linkedin.com/in/tomaselli-/">Linkedin</a>.</p>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#motivation" aria-label="Motivation">Motivation</a></li>
+                <li>
+                    <a href="#architecture" aria-label="Architecture">Architecture</a><ul>
+                        
+                <li>
+                    <a href="#sstables" aria-label="SSTables">SSTables</a></li>
+                <li>
+                    <a href="#skip-list" aria-label="Skip-list">Skip-list</a></li>
+                <li>
+                    <a href="#tree" aria-label="Tree">Tree</a></li></ul>
+                </li>
+                <li>
+                    <a href="#benchmarks" aria-label="Benchmarks">Benchmarks</a></li>
+                <li>
+                    <a href="#references-and-future-works" aria-label="References and future works">References and future works</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h1 id="motivation">Motivation<a hidden class="anchor" aria-hidden="true" href="#motivation">#</a></h1>
+<p>Stuff I want to talk about</p>
+<h1 id="architecture">Architecture<a hidden class="anchor" aria-hidden="true" href="#architecture">#</a></h1>
+<h2 id="sstables">SSTables<a hidden class="anchor" aria-hidden="true" href="#sstables">#</a></h2>
+<h2 id="skip-list">Skip-list<a hidden class="anchor" aria-hidden="true" href="#skip-list">#</a></h2>
+<h2 id="tree">Tree<a hidden class="anchor" aria-hidden="true" href="#tree">#</a></h2>
+<h1 id="benchmarks">Benchmarks<a hidden class="anchor" aria-hidden="true" href="#benchmarks">#</a></h1>
+<h1 id="references-and-future-works">References and future works<a hidden class="anchor" aria-hidden="true" href="#references-and-future-works">#</a></h1>
 
 
   </div>
 
   <footer class="post-footer">
     <ul class="post-tags">
+      <li><a href="https://tomfran.github.io/tags/database/">database</a></li>
     </ul>
 
   </footer>
