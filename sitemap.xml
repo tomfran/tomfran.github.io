@@ -3,13 +3,24 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://tomfran.github.io/</loc>
+    <lastmod>2023-11-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tomfran.github.io/tags/database/</loc>
+    <lastmod>2023-11-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tomfran.github.io/posts/lsm/</loc>
+    <lastmod>2023-11-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tomfran.github.io/posts/</loc>
+    <lastmod>2023-11-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tomfran.github.io/tags/</loc>
+    <lastmod>2023-11-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://tomfran.github.io/about/</loc>
   </url><url>
     <loc>https://tomfran.github.io/resume/</loc>
   </url><url>
     <loc>https://tomfran.github.io/categories/</loc>
-  </url><url>
-    <loc>https://tomfran.github.io/tags/</loc>
   </url>
 </urlset>
