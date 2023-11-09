@@ -4,17 +4,7 @@
     <title></title>
     <link>https://tomfran.github.io/</link>
     <description>Recent content on </description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 05 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://tomfran.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Log-Structured Merge Tree</title>
-      <link>https://tomfran.github.io/posts/lsm/</link>
-      <pubDate>Sun, 05 Nov 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://tomfran.github.io/posts/lsm/</guid>
-      <description>An LSM Tree overview and Java implementation</description>
-    </item>
-    
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://tomfran.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About me</title>
       <link>https://tomfran.github.io/about/</link>
