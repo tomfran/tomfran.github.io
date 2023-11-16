@@ -24,7 +24,7 @@
       <description>Hello, I am Francesco.
 I am an Italian Software Engineer with a strong foundation in computer science and a passion for solving complex problems.
 I am interested in a range of topics, including distributed systems, databases, compression techniques, and machine learning.
-Feel free to have a look at my Github, or get in touch on Linkedin.</description>
+Feel free to have a look at my Github, Medium, or get in touch on Linkedin.</description>
     </item>
     
     <item>
@@ -37,12 +37,9 @@ Feel free to have a look at my Github, or get in touch on Linkedin.</description
 University of Trento Bachelor of Science in Computer Science 2017 - 2020
 Work Experience Software Engineer Satispay, Milan, Italy Jan 2023 - Present
 Software Engineer Intern Spaziodati, Trento, Italy Feb 2020 - Jun 2020
-Skills Programming Languages
-Java, Python, C++
-Technologies
-PostgreSQL, AWS, Spring, Docker, Spark, Git, Linux
-Topics
-Microservices, Data compression, Distributed systems, Machine learning, Testing, CI/CD</description>
+Skills Programming Languages Java, Python, C++
+Technologies PostgreSQL, AWS, Spring, Docker, Spark, Git, Linux
+Topics Distributed systems, Databases, Microservices, Data compression , Machine learning, Testing, CI/CD</description>
     </item>
     
   </channel>
