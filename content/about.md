@@ -1,7 +1,7 @@
 ---
 title: "About"
 description: "A description of Francesco Tomaselli, an Italian software engineer."
-hideBackToTop: true
+hideBackToTop: false
 hidePagination: true
 ---
 
@@ -22,3 +22,28 @@ I got the chance.
 
 In my free time, I like to practice calisthenics and improve my cooking. I also [read](/library) 
 occasionally but not as much as I should.
+
+## Experience
+
+**Amazon** \
+*Software Development Engineer II* \
+Jul. '24 - Today | Berlin
+
+**Satispay** \
+*Software Engineer* \
+Jan. '23 - Jun. '24 | Milan
+
+**Spaziodati** \
+*Software Engineer Intern* \
+Feb. '20 - Jun. '20 | Trento
+
+## Education
+
+**Università degli Studi di Milano** \
+*Master of Science in Computer Science* \
+Sep. '20 - Sep. '22 | Milan
+
+**Università di Trento** \
+*Bachelor of Science in Computer Science* \
+Sep. '17 - Jul. '20 | Trento
+
