@@ -33,7 +33,7 @@ Starting from two documents:
 1. I did enact Julius Caesar: I was killed i' the Capitol; Brutus killed me.
 2. So let it be with Caesar. The noble Brutus hath told you Caesar was ambitious.
 
-We obtain an index as such, for the sake fo the example only doc ids are shown in the postings lists:
+We obtain an index as such, for the sake of the example only doc ids are shown in the postings lists:
 
 $$
 \begin{align*}
@@ -171,7 +171,7 @@ Where the inverse document frequency is computed as:
 $$\text{IDF}(q_i) = \ln \Bigg ( \frac{N - n(q_i) + 0.5}{n(q_i) + 0.5} + 1 \Bigg )$$
 
 The terms are: 
-- $f(q_i, D)$: number of times query term $i$ occours in document $D$;
+- $f(q_i, D)$: number of times query term $i$ occurs in document $D$;
 - $|D|$: length of the document $D$ in words;
 - $\text{avgdl}$: average length of the documents in the collection;
 - $k_1$ and $b$ are hyperparameters, we used, $1.2$ and $0.75$ respectively.
@@ -220,12 +220,12 @@ The window and BM25 scores are **relevance signals**, a production search engine
 ### Spelling correction
 
 The final aspect we are going to see about queries is spelling correction.
-The idea is to eidt user input and replace unknown words with plausible ones. 
+The idea is to edit user input and replace unknown words with plausible ones. 
 To measure words similarity we can use [Levenshtein distance](https://en.wikipedia.org/wiki/Levenshtein_distance), also knows as edit distance, 
 counting the minimum needed operations to transform a string into another one, 
-performing insertionm, deletion, and substitutions.
+performing insertion, deletion, and substitutions.
 
-We can compute it efficiently with dynamic programming, using the followig 
+We can compute it efficiently with dynamic programming, using the following 
 definition.
 
 $$
@@ -246,7 +246,7 @@ using a [trigram index](https://en.wikipedia.org/wiki/Trigram_search) on the ter
 
 For instance, given the word *hello* we search for words containing the 
 trigrams *hel*, *ell*, and *llo*. We therefore keep an index 
-in-memory where for every trigram occuring in the vocabulary, we 
+in-memory where for every trigram occurring in the vocabulary, we 
 have references to terms.
 
 When we find a tie in edit distance, we prefer higher overall frequency.

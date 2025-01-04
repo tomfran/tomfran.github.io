@@ -26,7 +26,7 @@ GitHub lets users specify in which theme they want readme images with two tags:
 ![img](./light.png#gh-light-mode-only)
 ```
 
-I decided to do something similar, definining several tags, `#dark`, `#light`, `#small`, `#full`, which controls on which theme an image appears, as well as sizing.
+I decided to do something similar, defining several tags, `#dark`, `#light`, `#small`, `#full`, which controls on which theme an image appears, as well as sizing.
 
 ```
 ![img](./dark.png#dark#small)
