@@ -31,3 +31,6 @@ An overview of the founder of Apple's life.
 
 [The Psychology of Money](https://www.morganhousel.com/) \
 Offers perspectives on the relationship between money and human behavior.
+
+[Algorithms to Live By](https://algorithmstoliveby.com/) \
+Explores how computer science algorithms can be applied to everyday life.

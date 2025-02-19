@@ -26,7 +26,7 @@ occasionally but not as much as I should.
 ## Experience
 
 **Amazon** \
-*Software Development Engineer II* \
+*Software Engineer* \
 Jul. '24 - Today | Berlin
 
 **Satispay** \
