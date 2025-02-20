@@ -1,7 +1,7 @@
 ---
 title: "About"
 description: "A description of Francesco Tomaselli, an Italian software engineer."
-hideBackToTop: false
+hideBackToTop: true
 hidePagination: true
 ---
 
@@ -14,6 +14,7 @@ distributed systems, databases, and search engines. I explored those topics with
 thesis on [graph compression](https://github.com/tomfran/ANS-Graph-compression), and with side 
 projects on [LSM tree](https://github.com/tomfran/LSM-Tree) and [search engine](https://github.com/tomfran/search-rs) 
 implementations.
+Here you can see my full [resume](https://standardresume.co/r/VdHivw35nPAXWY8CSCpfA).
 
 I had the opportunity of being a contestant at [SWERC](https://swerc.eu/), a team competitive 
 programming competition, in 2020 and 2022, also, I liked to participate in 
@@ -22,28 +23,3 @@ I got the chance.
 
 In my free time, I like to practice calisthenics and improve my cooking. I also [read](/library) 
 occasionally but not as much as I should.
-
-## Experience
-
-**Amazon** \
-*Software Engineer* \
-Jul. '24 - Today | Berlin
-
-**Satispay** \
-*Software Engineer* \
-Jan. '23 - Jun. '24 | Milan
-
-**Spaziodati** \
-*Software Engineer Intern* \
-Feb. '20 - Jun. '20 | Trento
-
-## Education
-
-**Università degli Studi di Milano** \
-*Master of Science in Computer Science* \
-Sep. '20 - Sep. '22 | Milan
-
-**Università di Trento** \
-*Bachelor of Science in Computer Science* \
-Sep. '17 - Jul. '20 | Trento
-
