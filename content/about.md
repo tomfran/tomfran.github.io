@@ -14,7 +14,6 @@ distributed systems, databases, and search engines. I explored those topics with
 thesis on [graph compression](https://github.com/tomfran/ANS-Graph-compression), and with side 
 projects on [LSM tree](https://github.com/tomfran/LSM-Tree) and [search engine](https://github.com/tomfran/search-rs) 
 implementations.
-Here you can see my full [resume](https://standardresume.co/r/VdHivw35nPAXWY8CSCpfA).
 
 I had the opportunity of being a contestant at [SWERC](https://swerc.eu/), a team competitive 
 programming competition, in 2020 and 2022, also, I liked to participate in 
