@@ -23,7 +23,6 @@ I am interested in a various topics, including algorithms, distributed systems, 
 Feel free to read [about myself](/about) or to look at my [posts](/posts).
 """
 
-
 singleDateFormat = '2 Jan 2006'
 
 # Collection to display on home
@@ -35,11 +34,14 @@ paginationSize = 100
 listSummaries = true
 listDateFormat = '02 Jan 2006'
 
-# Breadcrumbs
-breadcrumbs = true
-
+# Footer
 showFooter = true
-# footerContent = """Custom"""
+
+# Breadcrumbs
+[params.breadcrumbs]
+enabled = true
+showCurrentPage = true
+home = "Home"
 
 # Social icons
 [[params.social]]
