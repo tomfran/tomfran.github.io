@@ -41,7 +41,7 @@ showFooter = true
 [params.breadcrumbs]
 enabled = true
 showCurrentPage = true
-home = "Home"
+home = "~"
 
 # Social icons
 [[params.social]]
@@ -57,9 +57,9 @@ name = "github"
 url = "https://github.com/tomfran"
 
 # Main menu pages
-[[params.menu]]
-name = "home"
-url = "/"
+# [[params.menu]]
+# name = "home"
+# url = "/"
 
 [[params.menu]]
 name = "posts"
