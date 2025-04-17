@@ -308,13 +308,12 @@ $$\text{n}\\;|\\;p_0, l_0, \dots, p_n, l_n$$
 
 Here is how much memory an index for ~180k documents with 32-bit integers representation takes on disk: 
 
-```bash
-total 4620800
--rw-r--r--@ 1 fran  staff   5.4M Feb  1 17:33 idx.alphas
--rw-r--r--@ 1 fran  staff   7.2M Feb  1 17:33 idx.docs
--rw-r--r--@ 1 fran  staff   1.1M Feb  1 17:33 idx.offsets
--rw-r--r--@ 1 fran  staff   2.2G Feb  1 17:33 idx.postings
-```
+| Type       | Size MB |
+| ---------- | ------: |
+| Vocabulary |     5.4 |
+| Documents  |     7.2 |
+| Offsets    |     1.1 |
+| Postings   |  2200.0 |
 
 ### Exploiting small integers
 
@@ -366,13 +365,12 @@ We can apply the same principles with document paths, as they likely share direc
 
 After employing prefix compression and delta encoding with VByte and Gamma codes, we save over **~68%** of disk space compared to the naïve representation.
 
-```bash
-total 1519232
--rw-r--r--@ 1 fran  staff   1.3M Feb  1 17:54 idx.alphas
--rw-r--r--@ 1 fran  staff   2.3M Feb  1 17:54 idx.docs
--rw-r--r--@ 1 fran  staff   588K Feb  1 17:54 idx.offsets
--rw-r--r--@ 1 fran  staff   724M Feb  1 17:54 idx.postings
-```
+| Type       | Uncompressed (MB) | Compressed (MB) | Saving Ratio (%) |
+| ---------- | ----------------: | --------------: | ---------------: |
+| Vocabulary |               5.4 |             1.3 |             75.9 |
+| Documents  |               7.2 |             2.3 |             68.1 |
+| Offsets    |               1.1 |             0.6 |             46.5 |
+| Postings   |            2200.0 |           724.0 |             67.1 |
 
 ### Implementation details
 
