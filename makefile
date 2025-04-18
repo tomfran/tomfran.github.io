@@ -7,8 +7,10 @@ build:
 clean: 
 	rm -r public
 
-push_theme:
-	cd themes/typo && git add . && git commit -m "$(m)" && git push
-
 run: 
 	hugo server --disableFastRender -D
+
+push: 
+	git submodule update --remote --merge
+	git add . && git commit -m "Update" && git push
+
