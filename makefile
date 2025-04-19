@@ -13,4 +13,3 @@ run:
 push: 
 	git submodule update --remote --merge
 	git add . && git commit -m "Update" && git push
-

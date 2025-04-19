@@ -11,7 +11,7 @@ tags: ["rust"]
 showTags: false
 ---
 
-I've been in the process of coding a [Web Crawler](https://github.com/tomfran/crawler) in Rust and faced a problem with keeping an in-memory to-visit queue.
+I've been in the process of coding a web crawler in Rust and faced a problem with keeping an in-memory to-visit queue.
 The idea is to have a collection of nodes to visit, which discards duplicates, with minimal memory overhead.
 
 ## The Problem
@@ -270,8 +270,6 @@ The space efficiency is amazing, for instance, **1 Billion elements**, with a fa
 ## The Solution
 
 Here is the final solution to this problem. The Sieve struct now accepts a parameter indicating the expected number of elements that are enqueued. Once we surpass this threshold, the filter performance starts to deteriorate.
-
-[Here](https://github.com/tomfran/crawler/tree/main/src/sieve) you can find the full working code.
 
 ```rust
 use log::warn;
