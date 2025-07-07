@@ -1,7 +1,7 @@
 ---
 title: "Search Engine in Rust"
-author: "Francesco Tomaselli"
-authorAvatarPath: "/avatar.jpeg"
+# author: "Francesco Tomaselli"
+# authorAvatarPath: "/avatar.jpeg"
 date: "2024-02-01"
 summary: "A search engine overview and Rust implementation, supporting free and boolean ranked queries, efficient disk and memory usage, and spelling correction."
 description: "A search engine overview and Rust implementation, covering text pre-processing, indexing, query resolution, and index compression."

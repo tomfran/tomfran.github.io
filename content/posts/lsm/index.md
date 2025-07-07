@@ -1,7 +1,7 @@
 ---
 title: "Log-Structured Merge Tree"
-author: "Francesco Tomaselli"
-authorAvatarPath: "/avatar.jpeg"
+# author: "Francesco Tomaselli"
+# authorAvatarPath: "/avatar.jpeg"
 date: "2023-11-12"
 summary: "An LSM Tree overview and Java implementation, with a Skiplist, SStables, and background compaction from scratch."
 description: "A Log Structured Merge Tree overview and implementation using Java, including SSTables, Bloom Filter, and a Skiplist from scratch."
