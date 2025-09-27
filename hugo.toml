@@ -49,12 +49,16 @@ name = "linkedin"
 url = "https://www.linkedin.com/in/tomaselli-/"
 
 [[params.social]]
+name = "github"
+url = "https://github.com/tomfran"
+
+[[params.social]]
 name = "medium"
 url = "https://medium.com/@tomfran"
 
 [[params.social]]
-name = "github"
-url = "https://github.com/tomfran"
+name = "leetcode"
+url = "https://leetcode.com/u/tomfran/"
 
 # Main menu pages
 # [[params.menu]]
