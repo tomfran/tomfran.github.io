@@ -1,7 +1,7 @@
 ---
 title: "Magic Keyboard and Trackpad on Multiple Macs"
 date: "2025-09-08"
-summary: "Surviving the agony of manually unpairing your devices from one Mac to another."
+summary: "Not havint to manually unpair your devices from one Mac to another."
 description: "Using a Magic Keyboard and Trackpad on multiple Macs"
 toc: false
 readTime: true
@@ -15,7 +15,7 @@ The problem of using a Magic Keyboard and Trackpad on multiple Macs seems to be 
 You basically struggle to switch focus from one Mac to another if those devices are paired to both.
 
 There are some paid apps that promise to fix this, for only **$14.99**! 
-But you only need ten free lines of code to make this work.
+But you only need ten free lines of code to make this work (most of the times).
 
 ## Requirements
 
@@ -58,4 +58,4 @@ function unpair() {
 ```
 
 Boom you're done. Add these helpers on every Mac, run unpair on one before pairing on the other, 
-you might need to turn off and on the keyboard and trackpad before pairing.
+you might need to turn off and on the keyboard and trackpad before pairing. 
