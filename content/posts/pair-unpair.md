@@ -1,7 +1,7 @@
 ---
 title: "Magic Keyboard and Trackpad on Multiple Macs"
 date: "2025-09-08"
-summary: "Not havint to manually unpair your devices from one Mac to another."
+summary: "Not having to manually unpair your devices from one Mac to another."
 description: "Using a Magic Keyboard and Trackpad on multiple Macs"
 toc: false
 readTime: true
@@ -9,6 +9,7 @@ autonumber: false
 math: false
 tags: ["", "mac"]
 showTags: false
+draft: true
 ---
 
 The problem of using a Magic Keyboard and Trackpad on multiple Macs seems to be a recurring issue. 
