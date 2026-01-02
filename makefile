@@ -1,5 +1,6 @@
 build:
 	hugo --minify
+	rm -r public/fonts/Monaspace
 
 clean: 
 	rm -r public
@@ -12,3 +13,7 @@ pull:
 
 push: pull
 	git add . && git commit -m "Update" && git push
+
+format: 
+	npx --yes prettier --write "**/*.{js,css}"
+	npx --yes @taplo/cli fmt

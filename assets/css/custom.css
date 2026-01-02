@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "IBMPlex";
+  src: url("/fonts/IBM_Plex/ibm-plex-mono-v20-latin-regular") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IBMPlex";
+  src: url("/fonts/IBM_Plex/ibm-plex-mono-v20-latin-600") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --font-mono: "IBMPlex", ui-monospace, monospace;
+}
