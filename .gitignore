@@ -16,3 +16,5 @@ Thumbs.db
 # Hugo artifacts
 .hugo_build.lock
 public
+
+/content/posts
