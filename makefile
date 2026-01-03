@@ -1,6 +1,5 @@
 build:
 	hugo --minify
-	rm -r public/fonts/Monaspace
 
 clean: 
 	rm -r public
