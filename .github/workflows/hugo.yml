@@ -38,6 +38,9 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
+      - name: Replace Umami Website ID
+        run: |
+          sed -i 's/websiteId = "your website id"/websiteId = "${{ secrets.UMAMI_WEBSITE_ID }}"/' hugo.toml
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
       - name: Build with Hugo

@@ -110,5 +110,5 @@ theme = "preferred_color_scheme"
 
 [params.umami]
 enable = true
-websiteId = "cc219028-551e-4f3b-bbc7-e124ca907ce0"
 jsLocation = "https://cloud.umami.is/script.js"
+websiteId = "your website id"
