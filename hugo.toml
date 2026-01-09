@@ -56,9 +56,9 @@ url = "https://github.com/tomfran"
 name = "medium"
 url = "https://medium.com/@tomfran"
 
-[[params.social]]
-name = "leetcode"
-url = "https://leetcode.com/u/tomfran/"
+# [[params.social]]
+# name = "leetcode"
+# url = "https://leetcode.com/u/tomfran/"
 
 # Main menu pages
 # [[params.menu]]
